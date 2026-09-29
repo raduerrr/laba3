@@ -25,6 +25,8 @@
     height: 120px;
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+    
 }
 
 nav {
