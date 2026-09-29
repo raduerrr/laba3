@@ -4,7 +4,6 @@
     min-height: 120px;
     display: flex;
     flex-direction: column;
-    border: 2px solid #7ca6ce;
     gap: 20px;
 }
 
@@ -44,7 +43,7 @@ nav {
     box-sizing: border-box;
     background-color: lightblue;
     padding: 10px;
-    border: 2px solid #7ca6ce;
+    
     overflow-x: auto;
 }
 
@@ -53,7 +52,7 @@ nav {
     width: 100%;
     box-sizing: border-box;
     background-color: lightblue;
-    border: 2px solid #7ca6ce;
+
     padding: 10px;
 }
 
@@ -63,7 +62,7 @@ nav {
     box-sizing: border-box;
     background-color: lightblue;
     padding: 10px;
-    border: 2px solid #7ca6ce;
+
 }
 
 table {
@@ -86,7 +85,7 @@ tbody tr:nth-child(odd) {
     width: 100%;
     box-sizing: border-box;
     background-color: lightblue;
-    border: 2px solid #7ca6ce;
+    padding: 5px;
 }
 
 @media screen and (min-width: 800px) {
