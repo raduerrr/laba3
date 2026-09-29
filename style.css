@@ -120,6 +120,7 @@ tbody tr:nth-child(odd) {
         gap: 10px;
         border-bottom: 2px solid #7ca6ce;
         border-left: 2px solid #7ca6ce;
+        width: auto;
     }
 
     #main {
