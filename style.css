@@ -1,8 +1,12 @@
 #h {
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 20px;
 }
 
 #logo {
@@ -14,17 +18,19 @@
 }
 
 #ns {
+    
     background-color: lightblue;
 }
 
 nav {
+    width: 100%;
     background-color: lightblue;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 5px;
-    width: 100%;
 }
+
 
 #main {
     display: flex;
