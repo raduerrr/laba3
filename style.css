@@ -10,6 +10,8 @@
 }
 
 #logo {
+    box-sizing: border-box;
+    flex-shrink: 0;
     width: 100px;
     height: 100px;
     padding: 10px;
