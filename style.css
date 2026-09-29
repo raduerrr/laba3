@@ -1,0 +1,130 @@
+#h {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #7ca6ce;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    float: left;
+}
+
+#logo img {
+    max-width: 100%;
+}
+
+#ns {
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    gap: 20px;
+}
+
+#tab {
+    order: 1;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid #7ca6ce;
+    overflow-x: auto;
+}
+
+#hyp {
+    order: 2;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    border: 2px solid #7ca6ce;
+    padding: 10px;
+}
+
+#frm {
+    order: 3;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid #7ca6ce;
+}
+
+table {
+    width: 100%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+
+thead tr {
+    background-color: lightgoldenrodyellow;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+
+#footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    border: 2px solid #7ca6ce;
+}
+
+@media screen and (min-width: 800px) {
+    #h {
+        flex-direction: row;
+        align-items: center;
+        height: 120px;
+    }
+
+    #ns {
+        margin-top: 50px;
+    }
+
+    nav {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        flex-direction: row;
+        gap: 10px;
+        border-bottom: 2px solid #7ca6ce;
+        border-left: 2px solid #7ca6ce;
+    }
+
+    #main {
+        max-width: 960px;
+        margin: 20px auto;
+    }
+
+    #tab {
+        order: 2;
+    }
+
+    #hyp {
+        order: 1;
+    }
+
+    #frm {
+        order: 3;
+    }
+}
